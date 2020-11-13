@@ -18,7 +18,7 @@
 - External Hard Drive/硬盘: Asgard AN 512 M.2 NVMe SSD
 - CPU: I5-8400  
 - Wireless Card/网卡: dw1820(CN-OVW3T3)
-RAM/内存: ADATA 16G DDR4 2400MHz X2
+- RAM/内存: ADATA 16G DDR4 2400MHz X2
 
 
 # Functions/功能
