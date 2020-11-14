@@ -48,3 +48,23 @@
   - Security Secure Boot, Disabled(by default)
   - Boot, CSM, disabled
   - BIOS版本必须在4.0及以上！
+
+
+# 其他
+
+- 除了白果卡以及1820a之外的wifi蓝牙卡若要驱动请自行搜索黑果小兵的博客。
+
+- 系统完成后睡眠修复, 打开终端执行:
+
+  ```bash
+  sudo pmset standby 0
+  sudo pmset autopoweroff 0
+  sudo pmset hibernatemode 0
+  sudo pmset proximitywake 0
+  ```
+> 或者使用 Hackintool 电源部分修复.
+
+- 系统配置部分: 节能配置
+
+- 取消勾选: 唤醒以供以太网络访问
+
