@@ -68,3 +68,9 @@
 
    - 取消勾选: 唤醒以供以太网络访问
 
+
+# 关于其他无线网卡
+- 如果使用白果拆机卡，直接使用`Deskmini-310-Opencore`
+- 如果使用`除了`CN-OVW3T3型号外的dw1820a网卡，请参考https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
+- 如果使用dw1560/dw1830网卡，请参考https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html
+- 如果使用intel的无线网卡，请参考https://github.com/OpenIntelWireless/itlwm
