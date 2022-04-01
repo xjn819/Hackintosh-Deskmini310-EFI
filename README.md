@@ -5,7 +5,7 @@
 - CPU:i3-i9都可以，请务必不要购买ES QS版本CPU，其中i7及以上存在功耗墙，不适合购买。
 - 内存：随便
 - 网卡：拆机卡（BCM943602CS）+转接卡
-- 硬盘：请不要购买pm981,pm981a.自主查询合适的SSD 比如SN750/C2000/C2000PRO等等
+- 硬盘：请不要购买pm981,pm981a.自主查询合适的SSD 比如SN750等,如果搭配的是白果的wifi转接卡，那尽可能买单面颗粒的SSD，不然叠在一起可能会压弯了。
 - 散热器：随便
 - 请在购买后先使用WIN，并使用AIDA等压力测试软件测试并确保硬件没有问题！！
 
@@ -66,7 +66,15 @@
    - 取消勾选: 唤醒以供以太网络访问
 
 
-# 关于其他无线网卡
+# 其它注意事项
+   - 开机跑码: EFI默认开启了开机跑码方便排错，在正常安装并没发现问题后，请自行修改config.plist里boot-args这项，把-v这个值删除。
+   - 不支持hidpi的显示器开机的苹果logo可能不正常，自己修改config.plist中关于UIScale的设置。
+   
+   - 请务必修改三码！！！！
+
+
+
+# 其他无线网卡
 - 如果使用dw1820a网卡，请参考https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 - 如果使用dw1560/dw1830网卡，请参考https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html
 - 如果使用intel的无线网卡，请参考https://github.com/OpenIntelWireless/itlwm
