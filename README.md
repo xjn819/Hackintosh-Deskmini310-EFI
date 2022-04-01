@@ -2,7 +2,7 @@
 
 # 购物指南：
 
-- CPU:i3-i9都可以，请务必不要购买ES QS版本CPU，其中i7及以上存在功耗墙，不适合购买。
+- CPU:i3-i9都可以，请务必不要购买ES QS版本CPU（可能会碰到各种各样的问题），其中i7及以上存在功耗墙，不适合购买。
 - 内存：随便
 - 网卡：拆机卡（BCM943602CS）+转接卡
 - 硬盘：请不要购买pm981,pm981a.自主查询合适的SSD 比如SN750等,如果搭配的是白果的wifi转接卡，那尽可能买单面颗粒的SSD，不然叠在一起可能会压弯了。
@@ -74,7 +74,7 @@
 
 
 
-# 其他无线网卡
+# 其它无线网卡
 - 如果使用dw1820a网卡，请参考https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
 - 如果使用dw1560/dw1830网卡，请参考https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html
 - 如果使用intel的无线网卡，请参考https://github.com/OpenIntelWireless/itlwm
