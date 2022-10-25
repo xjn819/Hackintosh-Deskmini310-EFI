@@ -47,7 +47,7 @@
   - Super IO Configuration, Serial Port, Disabled（必须）
   - Security Secure Boot, Disabled(by default)
   - Boot, CSM, disabled
-  - BIOS版本必须在4.0及以上！
+  - BIOS版本必须在4.0及以上！并且强烈建议使用4.0，没时间看新的acpi。
 
 
 
